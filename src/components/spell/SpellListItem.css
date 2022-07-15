@@ -1,0 +1,17 @@
+.spell-li{
+    padding: 10px;
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    cursor: pointer;
+}
+.spell-li:hover{
+    background-color: #efefef;
+}
+
+.spell-li > a{
+    text-decoration: none;
+}
+
+.spell-li > .fav-icon{
+    float: right;
+}

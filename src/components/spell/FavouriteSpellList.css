@@ -1,0 +1,11 @@
+.spell-list{
+    margin: auto;
+    width:360px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.spell-not-found{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

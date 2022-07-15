@@ -1,0 +1,17 @@
+.pagination button{
+    border: solid 1px #cccccc;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius:3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.pagination button:hover{
+    background-color: #efefef;
+}
+.pagination button.active{
+    background-color: #efefef;
+}
+.pagination button.disabled{
+    cursor: not-allowed;
+}

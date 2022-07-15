@@ -1,0 +1,17 @@
+.spell-detail{
+    margin: auto;
+    max-width: 360px;
+    padding: 20px 10px;
+}
+
+.spell-detail-not-found{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.spell-header{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+}
