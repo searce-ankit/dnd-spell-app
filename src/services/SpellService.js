@@ -3,7 +3,9 @@ const apiUrl= process.env.REACT_APP_APIURL;
 
 export async function getPagedSpells(page){
     try{
-        const response = await fetch(`${apiUrl}spells`);
+        const response = await fetch(`${apiUrl}spells`,{
+            crossDomain:true
+        });
         const result= await response.json();
         return {
             count:result.count,
@@ -18,7 +20,9 @@ export async function getPagedSpells(page){
 
 export async function getSpellDetails(index){
     try{
-        const response = await fetch(`${apiUrl}spells/${index}`);
+        const response = await fetch(`${apiUrl}spells/${index}`,{
+            crossDomain:true
+        });
         return await response.json();
     }
     catch(error){
